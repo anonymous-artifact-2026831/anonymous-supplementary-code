@@ -1,0 +1,29 @@
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Unreleased data, weights, logs, and experimental outputs
+data/*
+!data/README.md
+outputs/
+results/
+logs/
+*.log
+*.jsonl
+*.json
+*.csv
+*.npy
+*.npz
+*.pt
+*.pth
+*.safetensors
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
