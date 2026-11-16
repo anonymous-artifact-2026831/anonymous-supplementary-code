@@ -20,6 +20,13 @@ logs/
 *.pth
 *.safetensors
 
+# Anonymous, data-only RefAmb reproducibility manifest.  These files contain
+# identifiers and hashes only (no questions, answers, images, or corpora).
+!data/SHA256SUMS
+!data/UPSTREAM_SOURCES.md
+!data/refamb_1500_manifest.jsonl
+!data/release_summary.json
+
 # Python tooling
 __pycache__/
 *.py[cod]

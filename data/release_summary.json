@@ -1,0 +1,15 @@
+{
+  "package_version": "1.0",
+  "benchmark": "RefAmb",
+  "split": "task_balanced",
+  "n_examples": 1500,
+  "source_counts": {
+    "crag": 818,
+    "infoseek": 176,
+    "mcsearch": 300,
+    "oven": 206
+  },
+  "manifest_sha256": "8efafc8f22c77b020446ec2fe557a829dd174e420bcda21754285a92d98e0835",
+  "canonical_local_task_sha256": "3a716d208bd00702eb5b1ba7093270768e4ae92cf328b9d299ed92892c2b935d",
+  "redistribution_policy": "No upstream images, QA text/answers, retrieval corpus, or internal annotation exports are included."
+}
